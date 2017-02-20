@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+dist/
+npm-debug.log
+test/unit/coverage
+test/e2e/reports
+selenium-debug.log
+
+
+//这个是git上忽略的一些目录（这个是比较熟悉的）不会提交到git的仓库里面

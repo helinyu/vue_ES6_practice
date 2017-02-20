@@ -1,13 +1,15 @@
 {
   "presets": [
     ["es2015", { "modules": false }],
-    "stage-2"
-  ],
-  "plugins": ["transform-runtime"],
-  "comments": false,
+    "stage-2"  // stage 有4个阶段 0 ~3 ，state-2 表示2~3 所以数字越小，表示的数据会越多。可以到node_module 里面查看对应的内容，包括了对应的转化的库 
+  ], // preset 表示预设
+  "plugins": ["transform-runtime"],  //表示转换的运行时
+  "comments": false, // 表示代码生成后不生成注释
   "env": {
     "test": {
       "plugins": [ "istanbul" ]
     }
   }
 }
+
+#这里面就是将es6的代码编译为es5的代码

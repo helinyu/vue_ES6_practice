@@ -1,9 +1,11 @@
 root = true
 
 [*]
-charset = utf-8
-indent_style = space
-indent_size = 2
-end_of_line = lf
-insert_final_newline = true
-trim_trailing_whitespace = true
+charset = utf-8  // 编码  
+indent_style = space//风格
+indent_size = 2  // 表示缩进的大小是2个
+end_of_line = lf   // 表示换行符的风格，lf表示的是linux和mac的换行风格 
+insert_final_newline = true  // 表示当你创建一个新的文件的时候，它会在文件末尾插入一个新行
+trim_trailing_whitespace = true// 表示会自动移除行尾的空格
+
+// 编译器的配置
